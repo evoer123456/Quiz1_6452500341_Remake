@@ -1,0 +1,8 @@
+<launch>
+	<node name="turtlesim" pkg="turtlesim" type="turtlesim_node" output="screen">
+	</node>
+	<node name="Remote" pkg="Quiz_6452500341_one" type="Remote.py" output="screen">
+	</node>
+	<node name="Motion" pkg="Quiz_6452500341_one" type="Motion.py" output="screen">
+	</node>
+</launch>
